@@ -1,0 +1,30 @@
+{
+  "route": {
+    "icon": "sign",
+    "color": "#66ab95"
+  },
+  "city": {
+    "icon": "city",
+    "color": "#3ebbea"
+  },
+  "cave": {
+    "icon": "mountains",
+    "color": "#9092a5"
+  },
+  "forest": {
+    "icon": "trees",
+    "color": "#118052"
+  },
+  "building": {
+    "icon": "building",
+    "color": "#e86d59"
+  },
+  "dungeon": {
+    "icon": "dungeon",
+    "color": "#595a5a"
+  },
+  "e4": {
+    "icon": "torii-gate",
+    "color": "#ff9900"
+  }
+}

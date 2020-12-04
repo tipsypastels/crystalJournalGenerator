@@ -1,0 +1,1 @@
+no more overdesigned bbcode journal posts, society has moved past the need for overdesigned bbcode journal posts

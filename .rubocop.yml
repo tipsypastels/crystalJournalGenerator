@@ -1,0 +1,93 @@
+require: 
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/TrailingWhitespace:
+  Enabled: false
+
+Style/PerlBackrefs:
+  Enabled: false
+
+Layout/TrailingEmptyLines:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Layout/HashAlignment:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/MixinGrouping:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/StabbyLambdaParentheses:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: true
+  Max: 83
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 15
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+  AllowAdjacentOneLineDefs: true
+
+Style/Lambda:
+  Enabled: true
+  EnforcedStyle: literal
+
+Style/BlockDelimiters:
+  Enabled: true
+  EnforcedStyle: braces_for_chaining
+
+Layout/SpaceInLambdaLiteral:
+  Enabled: true
+  EnforcedStyle: require_space  
+
+Layout/FirstHashElementIndentation:
+  Enabled: true
+  EnforcedStyle: consistent
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma

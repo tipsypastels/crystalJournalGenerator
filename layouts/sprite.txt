@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/tipsypastels/pokemonSprites/master/gen2/%s.png
